@@ -5453,56 +5453,6 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMD_LED_LUMIX_SINGLE_0_1"
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 3.048) (xy 1.27 2.286) (xy 1.27 3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 3.302) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.286 2.286)
-					(mid 1.905 2.667)
-					(end 2.286 3.048)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.286)
-					(mid 2.54 2.794)
-					(end 2.54 2.286)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "SMD_LED_LUMIX_SINGLE_1_1"
 				(polyline
 					(pts
@@ -12619,16 +12569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 331.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 331.47 40.64 0)
 			(effects
 				(font
@@ -13611,16 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 392.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 392.43 40.64 0)
 			(effects
 				(font
@@ -14008,7 +13940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26767aa8-74f5-41cd-837f-c71e338ea1df")
-		(property "Reference" "TP12"
+		(property "Reference" "TP_TXD0"
 			(at 265.176 179.832 0)
 			(effects
 				(font
@@ -14057,7 +13989,7 @@
 		(instances
 			(project "WS2812B_strip_driver_wled"
 				(path "/a67e84d5-b812-4302-b0a6-200741099847"
-					(reference "TP12")
+					(reference "TP_TXD0")
 					(unit 1)
 				)
 			)
@@ -14106,16 +14038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 356.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 356.87 40.64 0)
 			(effects
 				(font
@@ -14185,16 +14108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 344.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 344.17 40.64 0)
 			(effects
 				(font
@@ -16604,16 +16518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 369.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 369.57 40.64 0)
 			(effects
 				(font
@@ -16955,16 +16860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 312.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 312.42 40.64 0)
 			(effects
 				(font
@@ -20130,7 +20026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bee533a1-7072-4b57-9c45-c04d6b9ae325")
-		(property "Reference" "TP11"
+		(property "Reference" "TP_RXD0"
 			(at 260.858 179.832 0)
 			(effects
 				(font
@@ -20179,7 +20075,7 @@
 		(instances
 			(project "WS2812B_strip_driver_wled"
 				(path "/a67e84d5-b812-4302-b0a6-200741099847"
-					(reference "TP11")
+					(reference "TP_RXD0")
 					(unit 1)
 				)
 			)
@@ -20543,16 +20439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 299.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 299.72 40.64 0)
 			(effects
 				(font
