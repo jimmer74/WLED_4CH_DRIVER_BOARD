@@ -13941,7 +13941,7 @@
 		(dnp no)
 		(uuid "26767aa8-74f5-41cd-837f-c71e338ea1df")
 		(property "Reference" "TP_TXD0"
-			(at 265.176 179.832 0)
+			(at 264.16 181.356 90)
 			(effects
 				(font
 					(size 1 1)
@@ -20027,7 +20027,7 @@
 		(dnp no)
 		(uuid "bee533a1-7072-4b57-9c45-c04d6b9ae325")
 		(property "Reference" "TP_RXD0"
-			(at 260.858 179.832 0)
+			(at 261.62 181.356 90)
 			(effects
 				(font
 					(size 1 1)
