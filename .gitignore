@@ -1,2 +1,4 @@
 WS2812B_strip_driver_wled-backups/*
 *.lck
+fp-info-cache
+\#auto_saved_files\#
