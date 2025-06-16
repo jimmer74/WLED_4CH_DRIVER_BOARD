@@ -37,8 +37,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
+          "drill": 0.0,
+          "height": 1.14,
           "width": 0.6
         },
         "silk_line_width": 0.1,
@@ -197,10 +197,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": false,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": false,
-          "td_ontrackend": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": true,
           "td_onvia": false
         }
       ],
